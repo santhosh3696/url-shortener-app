@@ -9,7 +9,7 @@ app.use(express.json());
 
 // ✅ Root route (to test server)
 app.get('/', (req, res) => {
-    res.send('SANthosh FINAL WORKING');
+    res.send('AUTO DEPLOY SUCCESS');
 });
 
 // In-memory DB
